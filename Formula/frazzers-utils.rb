@@ -1,20 +1,20 @@
 class FrazzersUtils < Formula
   desc "A collection of command line tool that I use to make my life easier"
-  version "0.3.1"
+  version "0.3.2"
   on_macos do
     on_arm do
-      url "https://github.com/Frazzer951/futils/releases/download/v0.3.1/frazzers-utils-aarch64-apple-darwin.tar.xz"
-      sha256 "909b8c1849c67894efa5e3d725f055af29ff33c4ddf36bdc9da4b7f19b3152a0"
+      url "https://github.com/Frazzer951/futils/releases/download/v0.3.2/frazzers-utils-aarch64-apple-darwin.tar.xz"
+      sha256 "c18f61799a6f6d33fd0cda6eadc60dd44bd873941020ad0ce852281fe644f689"
     end
     on_intel do
-      url "https://github.com/Frazzer951/futils/releases/download/v0.3.1/frazzers-utils-x86_64-apple-darwin.tar.xz"
-      sha256 "5454e7bd0b8e8ee77f0f63f608a296c2ee6e1a4c98591bdc0019ba3568740761"
+      url "https://github.com/Frazzer951/futils/releases/download/v0.3.2/frazzers-utils-x86_64-apple-darwin.tar.xz"
+      sha256 "3321551c44220033f2acab482126591e0226a7ebf1fc377ffa5fc29027308317"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Frazzer951/futils/releases/download/v0.3.1/frazzers-utils-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4cb3c2fc7bd443ce38ca288622001ea0a3310f516895e310636da2b686810805"
+      url "https://github.com/Frazzer951/futils/releases/download/v0.3.2/frazzers-utils-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "946ba2e2ffdf9b37f9bfaf9df97cb4f4d3819ba71a7be36537a9e1e2eafafc28"
     end
   end
   license "MIT"
